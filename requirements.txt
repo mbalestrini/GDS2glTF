@@ -1,0 +1,4 @@
+numpy
+gdspy
+triangle
+pygltflib
