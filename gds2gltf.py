@@ -388,9 +388,7 @@ gltf.set_binary_blob(binaryBlob)
 buffer.byteLength = len(binaryBlob)
 gltf.convert_buffers(BufferFormat.DATAURI)
 
-root_node = pygltflib.Node()
-root_node.name = "ROOT"
-gltf.nodes.append(root_node)
+
 
 
 
@@ -433,10 +431,14 @@ def add_cell_node(c, parent_node, prefix):
         parent_node.children.append(len(gltf.nodes)-1)
 
 
+main_cell = gdsii.top_level()[0]
+
+root_node = pygltflib.Node()
+root_node.name = main_cell.name #"ROOT"
+gltf.nodes.append(root_node)
 
 print ("\nBuilding Scenegraph:")
 print(root_node.name)
-main_cell = gdsii.top_level()[0]
 
 add_cell_node(main_cell, root_node, "\t")
     
