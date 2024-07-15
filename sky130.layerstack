@@ -1,0 +1,18 @@
+[
+    {"layer": 235, "type": 4,  "name":"substrate", "zmin":-2,     "thickness":2,      "color":[ 0.2, 0.2, 0.2, 1.0]},
+    {"layer": 64,  "type": 20, "name":"nwell",     "zmin":-0.5,   "thickness":0.51,   "color":[ 0.4, 0.4, 0.4, 1.0]},
+    {"layer": 65,  "type": 20, "name":"diff",      "zmin":-0.12,  "thickness":0.14,   "color":[ 0.9, 0.9, 0.9, 1.0]},
+    {"layer": 66,  "type": 20, "name":"poly",      "zmin":0,      "thickness":0.18,   "color":[ 0.75, 0.35, 0.46, 1.0]},
+    {"layer": 66,  "type": 44, "name":"licon",     "zmin":0,      "thickness":0.936,  "color":[ 0.2, 0.2, 0.2, 1.0]},
+    {"layer": 67,  "type": 20, "name":"li1",       "zmin":0.936,  "thickness":0.2,    "color":[ 1.0, 0.81, 0.55, 1.0]},
+    {"layer": 67,  "type": 44, "name":"mcon",      "zmin":1.011,  "thickness":0.365,  "color":[ 0.2, 0.2, 0.2, 1.0]},
+    {"layer": 68,  "type": 20, "name":"met1",      "zmin":1.376,  "thickness":0.36,   "color":[ 0.16, 0.38, 0.83, 1.0]},
+    {"layer": 68,  "type": 44, "name":"via",       "zmin":1.736,  "thickness":0.264,  "color":[ 0.2, 0.2, 0.2, 1.0]},
+    {"layer": 69,  "type": 20, "name":"met2",      "zmin":2,      "thickness":0.36,   "color":[ 0.65, 0.75, 0.9, 1.0]},
+    {"layer": 69,  "type": 44, "name":"via2",      "zmin":2.36,   "thickness":0.426,  "color":[ 0.2, 0.2, 0.2, 1.0]},
+    {"layer": 70,  "type": 20, "name":"met3",      "zmin":2.786,  "thickness":0.845,  "color":[ 0.2, 0.62, 0.86, 1.0]},
+    {"layer": 70,  "type": 44, "name":"via3",      "zmin":3.631,  "thickness":0.3901, "color":[ 0.2, 0.2, 0.2, 1.0]},
+    {"layer": 71,  "type": 20, "name":"met4",      "zmin":4.0211, "thickness":0.845,  "color":[ 0.15, 0.11, 0.38, 1.0]},
+    {"layer": 71,  "type": 44, "name":"via4",      "zmin":4.8661, "thickness":0.5049, "color":[ 0.2, 0.2, 0.2, 1.0]},
+    {"layer": 72,  "type": 20, "name":"met5",      "zmin":5.371,  "thickness":1.2601, "color":[ 0.4, 0.4, 0.4, 1.0]}
+]

@@ -17,6 +17,11 @@ pygltflib
 
 Outputs a `file.gds.gltf` in the same folder as the original gds file
 
+### Use a custom layerstack
+
+For example, the included Sky 130 layerstack:
+`python3 gds2gltf.py file.gds -l sky130.layerstack`
+
 
 ## Note from original gdsiistl script:
 
