@@ -13,7 +13,11 @@ pygltflib
 ```
 
 ## Usage:
-`python3 gds2gltf.py file.gds`
+**For the SKY130 PDK** <br>
+`python3 gds2gltf_sky130.py file.gds`
+
+**For the GF180 PDK** <br>
+`python3 gds2gltf_gf180.py file.gds`
 
 Outputs a `file.gds.gltf` in the same folder as the original gds file
 
